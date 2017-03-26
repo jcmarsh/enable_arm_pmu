@@ -1,5 +1,5 @@
 obj-m	:= enable_arm_pmu.o
-KDIR	:= /lib/modules/$(shell uname -r)/build
+KDIR    := /home/jcmarsh/research/zybo_linux/linux-Digilent-Dev
 PWD	:= $(shell pwd)
 
 all:
